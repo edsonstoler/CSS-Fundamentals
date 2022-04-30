@@ -1,0 +1,67 @@
+body
+{
+  font-family: sans-serif;
+  color: #444;
+}
+.product
+{
+  border: 2px solid black;
+}
+.article-title
+{
+  text-transform: uppercase;
+  text-align:center;
+  background-color: rgba(127, 255, 212, 0.3);
+
+}
+
+.price
+{
+  font-size: 18px;
+}
+
+.shipping
+{
+  text-transform: uppercase;
+  color: rgba(6, 14, 11, 0.7);
+  font-size: 14px;
+  font-weight:bold;
+
+}
+.adresa
+{
+  text-decoration: underline;
+  color:rgba(0, 0, 0, 1);
+}
+.adresa:hover
+{
+text-decoration: none black;  
+}
+.Title-details
+{
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.list-details
+{
+  list-style:square;
+}
+
+button
+{
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  text-transform:uppercase;
+  font-weight:bolder;
+  text-decoration: underline;
+  font-size: 16px;
+  }
+button:hover
+  {
+background-color: white;
+color: black;
+text-decoration: none;
+
+  }
