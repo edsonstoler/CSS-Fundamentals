@@ -1,3 +1,7 @@
+*{
+  margin:0;
+  padding:0%;
+}
 body {
   color: #444;
   font-family: sans-serif;
@@ -16,9 +20,12 @@ h1 {
 }
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 h4 {
   font-size: 20px;
@@ -28,9 +35,19 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+ul, 
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 li {
   font-size: 22px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
 }
 /* footer p {
   font-size: 16px;
@@ -46,10 +63,18 @@ li {
 }
 .main-header {
   background-color: #f8f4f4;
+  padding: 20px 40px;
+  margin-bottom: 50px;
+}
+article{
+  margin-bottom: 60px;
+}
+.post-header{
+  margin-bottom: 40px;
 }
 .author-L {
-  border-bottom: 5px solid #007896;
-  background-color: rgba(255, 230, 0, 0.466);
+  /*border-bottom: 5px solid #007896;
+  background-color: rgba(255, 230, 0, 0.466);*/
 }
 .HTML-is {
   border-bottom: 5px solid #007896;
@@ -58,6 +83,7 @@ li {
 aside {
   border-top: 5px solid orange;
   border-bottom: 5px solid yellowgreen;
+  padding: 50px 0;
 }
 
 /* li:nth-child(even) { */
@@ -73,4 +99,17 @@ a:hover{
   font-weight: bold;
   text-decoration: underline blue;
   
+}
+
+.post-img
+{
+  width:100%;
+  height: auto;
+}
+.container
+{
+  width: 700px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: 0 auto;
 }
