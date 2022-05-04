@@ -7,6 +7,21 @@ body
   font-family: sans-serif;
   color: #444;
 }
+article{
+  position: relative;
+} .sale
+{
+  background-color: red;
+  color:white;
+  display:inline-block;
+  padding: 10px 10px;
+  font-weight: bolder;
+  position: absolute;
+  top:-15px;
+  left:-25px;
+  letter-spacing:2px;
+ 
+}
 .container
 {
   width:825px;
@@ -43,6 +58,37 @@ body
   margin-bottom: 15px;
 
 }
+
+.color
+{
+  background-color: black;
+height: 22px;
+width: 22px;
+display:inline-block;
+/* margin-right: 10px; */
+margin-left: 10px;
+}
+.color-blue
+{
+  background-color: blue;
+
+}
+.color-red
+{
+  background-color: red;
+}
+.color-yellow
+{
+  background-color: yellow;
+}
+.color-green
+{
+  background-color: green;
+}
+.color-brown
+{
+  background-color:brown;
+}
 p{
   margin-bottom: 15px;
 }
@@ -51,6 +97,8 @@ p{
 
   text-decoration: underline;
   color:rgba(0, 0, 0, 1);
+  margin-bottom: 30px;
+  display: inline-block;
 
 }
 .adresa:hover
